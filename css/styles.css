@@ -29,6 +29,7 @@ body {
 .header-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  color: var(--header-text-color);
 }
 
 .header-tel {
