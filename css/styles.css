@@ -16,11 +16,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-span {
+/*-------------------header---------------*/
+
+.logo-part {
   color: var(--third-text-color);
 }
-/*-------------------header---------------*/
-header {
+
+.topline {
   color: var(--background-color);
 }
 
