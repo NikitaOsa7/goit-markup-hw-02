@@ -10,6 +10,7 @@
   --primary-background-color: #2f303a;
   --secondary-background-color: #2196f3;
   --third-background-color: #f5f4fa;
+  --main-background-color: #e5e5e5;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 
 .logo-part {
   color: var(--third-text-color);
+  font-size: 26px;
 }
 
 .topline {
@@ -29,10 +31,16 @@ body {
 .header-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
   color: var(--header-text-color);
 }
 
-.header-tel {
+.header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +49,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-mail {
+.header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -108,6 +116,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .btn-light {
@@ -116,7 +125,7 @@ body {
 }
 
 .feature-title {
-  font-weight: bold;
+  font-weight:700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -126,7 +135,6 @@ body {
 }
 
 .feature-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 
@@ -163,7 +171,6 @@ body {
 }
 
 .team-card-position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 3.16;
   letter-spacing: 0.03em;
@@ -182,10 +189,10 @@ body {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-size: 26px;
 }
 
 .adress {
-  font-weight: normal;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -196,7 +203,6 @@ body {
 
 .footer-mail {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -206,7 +212,6 @@ body {
 
 .footer-tel {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -216,6 +221,11 @@ body {
 
 .footer-logo {
   color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
 }
 /* ----------------------portfolio----------------------- */
 .btn-portfolio {
@@ -232,7 +242,7 @@ body {
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   background-color: var(--secondary-background-color);
-
+  color
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -247,7 +257,7 @@ body {
 }
 
 .img-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -256,7 +266,6 @@ body {
 }
 
 .img-description {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
