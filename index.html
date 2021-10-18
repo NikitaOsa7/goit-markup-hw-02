@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -16,26 +16,32 @@
 
 <body>
     <header class="topline">
-        <a href="#" class="header-logo link"><span class="logo-part">Web</span>Studio</a>
+        <div class="container header-container">
+        <a href="#" class="link header-logo"><span class="logo-part">Web</span>Studio</a>
         <nav class="header-nav">
             <ul class="list menu-list">
-                <li><a href="./index.html" class="menu-link link">Студия</a></li>
-                <li><a href="./portfolio.html" class="menu-link link">Портфолио</a></li>
-                <li><a href="#" class="menu-link link">Контакты</a></li>
+                <li class="menu-item"><a href="./index.html" class="menu-link link">Студия</a></li>
+                <li class="menu-item"><a href="./portfolio.html" class="menu-link link">Портфолио</a></li>
+                <li class="menu-item"><a href="#" class="menu-link link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="list">
+        <div class="container header-connect">
+        <ul class="list header-connect">
             <li><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="header-tel link">+38 096-111-11-11</a></li>
         </ul>
+        </div>
+        </div>
     </header>
     <main>
         <section class="offer">
+            <div class="offer-container container">
             <h1 class="offer-text">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="offer-btn btn-light btn">Заказать услугу</button>
+            </div>
         </section>
         <section class="responsibilities">
-            <h2>НАШИ ПРИЕМУЩЕСТВА</h2>
+            <h2 class="responsibilities-hidden-title">НАШИ ПРИЕМУЩЕСТВА</h2>
             <ul class="list">
                 <li>
                     <h3 class="feature-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
