@@ -17,7 +17,97 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
 /*-------------------header---------------*/
+header {
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-logo {
+  margin-right: 93px;
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-connect {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-tel {
+  margin-left: 50px;
+}
+
+/*--------------main----------------*/
+.offer-container {
+  
+}
+
+.offer {
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.offer-text {
+  padding: 200px 452px 280px 452px;
+  text-align: center;
+  width: 696px;
+}
+
+.offer-btn {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 200px;
+  max-height: 50px;
+  display: block;
+}
 
 .logo-part {
   color: var(--third-text-color);
@@ -58,6 +148,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.responsibilities-hidden-title {
+  display: none;
+}
+
 .list {
   list-style: none;
 }
@@ -94,12 +188,17 @@ body {
 
 .offer {
   background-color: var(--primary-background-color);
+
 }
 
 .offer-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -164,7 +263,7 @@ body {
 .team-card-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 3.16;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--secondary-title-color);
@@ -172,7 +271,7 @@ body {
 
 .team-card-position {
   font-size: 16px;
-  line-height: 3.16;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
