@@ -39,6 +39,7 @@ button {
 img {
   display: block;
 }
+
 /*-------------------header---------------*/
 header {
   padding-bottom: 25px;
@@ -108,6 +109,25 @@ header {
   max-height: 50px;
   display: block;
 }
+
+/*----------responsibilities---------*/
+
+
+.responsibilities-container {
+  display: flex;
+}
+
+.responsibilities-list {
+  display: flex;
+}
+
+.feature-item {
+  margin-right: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 
 .logo-part {
   color: var(--third-text-color);
@@ -223,6 +243,10 @@ header {
   background-color: var(--secondary-background-color);
 }
 
+.responsibilities {
+  color:;
+}
+
 .feature-title {
   font-weight:700;
   font-size: 14px;
@@ -241,14 +265,33 @@ header {
 
   color: var(--primary-text-color);
 }
+/*----------------our_work-------------*/
+.our-work {
+  display: flex;
+}
 
-.work-type-title {
+
+.our-work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 0.76;
   letter-spacing: 0.03em;
 
   color: var(--secondary-title-color);
+}
+
+/*----------------team---------------*/
+.team-container {
+  display: flex;
+}
+
+.section-team-title {
+  display: flex;
+}
+
+.team-card-item {
+  display: flex;
+  pt186
 }
 
 .section-team-title {
